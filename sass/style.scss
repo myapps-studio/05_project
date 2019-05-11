@@ -1,0 +1,24 @@
+button {
+    background: lightblue;
+}
+
+.column-container {
+    background: lightgrey;
+    width: 400px;
+    height: auto;
+}
+
+.column {
+    background: yellow;
+    min-height: 200px;
+
+    > ul {
+        min-height: 100px;
+    }
+}
+
+.card {
+    background: pink;
+    width: 200px;
+    list-style-type: none;
+}
